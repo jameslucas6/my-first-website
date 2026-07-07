@@ -20,3 +20,30 @@ button {
 button:hover {
   background: #005a9e;
 }
+
+#pl-table-section {
+  margin-top: 3rem;
+  text-align: left;
+}
+
+#pl-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+#pl-table th,
+#pl-table td {
+  padding: 0.4rem 0.6rem;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+#pl-table th:nth-child(2),
+#pl-table td:nth-child(2) {
+  text-align: left;
+}
+
+#pl-table thead {
+  background: #f2f2f2;
+}
